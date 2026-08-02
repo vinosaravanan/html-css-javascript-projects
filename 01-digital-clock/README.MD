@@ -9,10 +9,10 @@ A clean, responsive, and minimalist digital clock built from scratch using HTML5
 
 ## 🚀 Features
 
-*   **Real-Time Tracking:** Syncs instantly with your computer's local system time.
-*   **12-Hour Format:** Built-in standard clock logic with automatic AM/PM indicators.
-*   **Responsive UI:** Centered viewport layout that scales nicely on mobile, tablet, and desktop screens.
-*   **Neon Aesthetics:** Glow-in-the-dark digital look using modern CSS shadows.
+*   **Real-Time Tracking:**  Syncs instantly with your computer's local system time.
+*   **12-Hour Format:**  Built-in standard clock logic with automatic AM/PM indicators.
+*   **Responsive UI:**  Centered viewport layout that scales nicely on mobile, tablet, and desktop screens.
+*   **Neon Aesthetics:**  Glow-in-the-dark digital look using modern CSS shadows.
 
 ---
 
@@ -21,19 +21,19 @@ A clean, responsive, and minimalist digital clock built from scratch using HTML5
 Building this project introduces several core web development fundamentals:
 
 ### ⚙️ JavaScript
-*   **The `Date` Object:** Initializing `new Date()` to extract precise hours, minutes, and seconds.
-*   **Asynchronous Timing:** Using `setInterval()` to loop code execution exactly every 1000 milliseconds.
-*   **String Formatting:** Using `.toString().padStart(2, '0')` to enforce dual-digit formatting for single digits (e.g., turning `5` into `05`).
-*   **Ternary Operators:** Writing shorthand conditions (`hours >= 12 ? 'PM' : 'AM'`) for compact code.
-*   **DOM Manipulation:** Dynamically rewriting text nodes inside the HTML layer via `document.getElementById().textContent`.
+*   **The `Date` Object:**  Initializing `new Date()` to extract precise hours, minutes, and seconds.
+*   **Asynchronous Timing:**  Using `setInterval()` to loop code execution exactly every 1000 milliseconds.
+*   **String Formatting:**  Using `.toString().padStart(2, '0')` to enforce dual-digit formatting for single digits (e.g., turning `5` into `05`).
+*   **Ternary Operators:**  Writing shorthand conditions (`hours >= 12 ? 'PM' : 'AM'`) for compact code.
+*   **DOM Manipulation:**  Dynamically rewriting text nodes inside the HTML layer via `document.getElementById().textContent`.
 
 ### 🎨 CSS
-*   **Flexbox Positioning:** Centering components cleanly using `display: flex`, `justify-content`, and `align-items`.
-*   **Viewport Dimensions:** Using `100vh` to match the display boundaries perfectly without overflow.
-*   **Neon Styling:** Layering semi-transparent hex codes in `box-shadow` with `rgba()` for a glowing effect.
+*   **Flexbox Positioning:**  Centering components cleanly using `display: flex`, `justify-content`, and `align-items`.
+*   **Viewport Dimensions:**  Using `100vh` to match the display boundaries perfectly without overflow.
+*   **Neon Styling:**  Layering semi-transparent hex codes in `box-shadow` with `rgba()` for a glowing effect.
 
 ### 🏗️ HTML
-*   **Target Linking:** Attaching external structural stylesheets and logic scripts to an organized `.html` document.
+*   **Target Linking:**  Attaching external structural stylesheets and logic scripts to an organized `.html` document.
 
 ---
 
