@@ -21,11 +21,11 @@ A clean, responsive, and minimalist digital clock built from scratch using HTML5
 Building this project introduces several core web development fundamentals:
 
 ### ⚙️ JavaScript
-*   **The `Date` Object:** Initializing `new Date()` to extract precise hours, minutes, and seconds.
-*   **Asynchronous Timing:** Using `setInterval()` to loop code execution exactly every 1000 milliseconds.
-*   **String Formatting:** Using `.toString().padStart(2, '0')` to enforce dual-digit formatting for single digits (e.g., turning `5` into `05`).
-*   **Ternary Operators:** Writing shorthand conditions (`hours >= 12 ? 'PM' : 'AM'`) for compact code.
-*   **DOM Manipulation:** Dynamically rewriting text nodes inside the HTML layer via `document.getElementById().textContent`.
+*   **The `Date` Object:**   Initializing `new Date()` to extract precise hours, minutes, and seconds.
+*   **Asynchronous Timing:**  Using `setInterval()` to loop code execution exactly every 1000 milliseconds.
+*   **String Formatting:**  Using `.toString().padStart(2, '0')` to enforce dual-digit formatting for single digits (e.g., turning `5` into `05`).
+*   **Ternary Operators:**  Writing shorthand conditions (`hours >= 12 ? 'PM' : 'AM'`) for compact code.
+*   **DOM Manipulation:**  Dynamically rewriting text nodes inside the HTML layer via `document.getElementById().textContent`.
 
 ### 🎨 CSS
 *   **Flexbox Positioning:** Centering components cleanly using `display: flex`, `justify-content`, and `align-items`.
