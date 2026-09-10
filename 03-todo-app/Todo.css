@@ -83,3 +83,23 @@ li.completed{
     opacity: 0.7;
 }
 
+li.completed span {
+    text-decoration: line-through;
+    color:#6b7280;
+}
+
+li span{
+    cursor: pointer;
+    flex: 1;
+}
+
+.delete-btn{
+    background-color: #ef4444;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.delete-btn:hover{
+    background-color: #dc2626;
+}
